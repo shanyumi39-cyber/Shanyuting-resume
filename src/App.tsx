@@ -21,9 +21,9 @@ const router = createBrowserRouter([
     ],
   },
 ],
-{
-  basename: "/Shanyuting-resume",
-}
+  {
+    basename: "/Shanyuting-resume",
+  }
 );
 
 export default function App() {

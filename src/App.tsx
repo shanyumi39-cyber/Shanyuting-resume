@@ -20,7 +20,11 @@ const router = createBrowserRouter([
       { path: "*", element: <NotFound /> },
     ],
   },
-]);
+],
+{
+  basename: "/Shanyuting-resume",
+}
+);
 
 export default function App() {
   return <RouterProvider router={router} />;

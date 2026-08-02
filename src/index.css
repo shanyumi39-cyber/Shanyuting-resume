@@ -17,8 +17,8 @@
 .liquid-glass {
   background: rgba(255, 255, 255, 0.01);
   background-blend-mode: luminosity;
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px) !important;
+  -webkit-backdrop-filter: blur(6px) !important;
   border: none;
   box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.1);
   position: relative;

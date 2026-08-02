@@ -22,7 +22,7 @@ export default function ProjectCard({ project, index = 0, onOpen }: Props) {
       {/* Cover */}
       <div className="relative aspect-[16/9] overflow-hidden bg-black">
         <img
-          src={project.cover}
+          src={`${import.meta.env.BASE_URL}${project.cover}`}
           alt={project.title}
           loading="lazy"
           className={`absolute inset-0 w-full h-full transition-transform duration-700 group-hover:scale-105 ${

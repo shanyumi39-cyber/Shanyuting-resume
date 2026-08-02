@@ -139,9 +139,9 @@ export default function Navbar() {
       )}
 
       {/* Ambient background audio — plays on Home only */}
-      <audio ref={audioRef} src="/ambient.mp3" loop />
+      <audio ref={audioRef} src={`${import.meta.env.BASE_URL}ambient.mp3`} loop />
       {/* Click sound effect for nav links */}
-      <audio ref={clickAudioRef} src="/click.mp3" preload="auto" />
+      <audio ref={clickAudioRef} src={`${import.meta.env.BASE_URL}click.mp3`} preload="auto" />
     </header>
   );
 }

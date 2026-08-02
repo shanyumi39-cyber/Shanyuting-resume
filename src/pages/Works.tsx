@@ -40,7 +40,7 @@ export default function Works() {
           className="w-full"
           right={
             <motion.a
-              href="/portfolio/Jada_Shan_Portfolio.pdf"
+              href={`${import.meta.env.BASE_URL}portfolio/Jada_Shan_Portfolio.pdf`}
               download
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.25, ease: "easeOut" }}

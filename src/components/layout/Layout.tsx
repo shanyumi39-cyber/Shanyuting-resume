@@ -2,7 +2,7 @@ import { Outlet, ScrollRestoration } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
-const VIDEO_SRC = "/video.mp4";
+const VIDEO_SRC = `${import.meta.env.BASE_URL}video.mp4`;
 
 export default function Layout() {
   return (

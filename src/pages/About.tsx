@@ -4,7 +4,7 @@ import { GraduationCap, User, ImagePlus } from "lucide-react";
 import profile from "../data/profile.json";
 import SectionHeading from "../components/ui/SectionHeading";
 
-const PHOTO_SRC = "/profile-photo.jpg";
+const PHOTO_SRC = `${import.meta.env.BASE_URL}profile-photo.jpg`;
 
 // Render text with highlighted keywords wrapped in heavier font weight
 function renderIntro(text: string, highlights?: string[]) {
